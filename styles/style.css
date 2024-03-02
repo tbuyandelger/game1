@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(11, 4, 31, 0.9);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-size: 30x;
+    font-weight: bold;
+}
+
+.move-icon{
+    height: 70px;
+}
+
+.move-button{
+ background-color: transparent;
+ border: 3px solid white;
+ width: 130px;
+ height: 130px;
+ border-radius: 70px;
+ margin-right: 10px;
+ cursor: pointer;
+
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px;
+}
+.reset-score-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.reset-score-button:hover {
+    opacity: 0.7;
+  }
+
+  .reset-score-button:active {
+    opacity: 0.5;
+  }
+
+  .auto-play-button{
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+  
+  .auto-play-button:hover {
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+
+  .auto-play-button:active {
+    opacity: 0.6;
+  }
