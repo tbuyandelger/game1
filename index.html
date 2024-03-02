@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <p class="title">Хайч-Чулуу-Даавуу</p>
-    <button class="move-button js-haich-button"> <img src="images/haich-emoji.png" alt="Хайч" class="move-icon"></button>
-    <button class="move-button js-chuluu-button"> <img src="images/chuluu-emoji.png" alt="Чулуу" class="move-icon"></button>
-    <button class="move-button js-daavuu-button"> <img src="images/daavuu-emoji.png" alt="Даавуу" class="move-icon"></button>
-    <p class="result">Үр дүн:</p>
-    <!-- Энд оноо гаргана -->
-    <p class="js-score score"></p>
-    <p class="js-moves" >Та болон Компьютер</p>
-    <button
-     onclick="score.yalalt = 0;
-     score.yalagdal = 0;
-     score.tentssen = 0;
-     localStorage.removeItem('score');
-     updateScoreElement();
-     "
-    class="reset-score-button">Сэргээх</button>
-    <button class="auto-play-button" onclick="autoPlay();">Автоматаар тоглуулах</button>
+    <div id="container">
+        <p class="title">Хайч-Чулуу-Даавуу</p>
+        <button class="move-button js-haich-button"> <img src="images/haich-emoji.png" alt="Хайч" class="move-icon"></button>
+        <button class="move-button js-chuluu-button"> <img src="images/chuluu-emoji.png" alt="Чулуу" class="move-icon"></button>
+        <button class="move-button js-daavuu-button"> <img src="images/daavuu-emoji.png" alt="Даавуу" class="move-icon"></button>
+        <p class="result">Үр дүн:</p>
+        <!-- Энд оноо гаргана -->
+        <p class="js-score score"></p>
+        <p class="js-moves" >Та болон Компьютер</p>
+        <button
+         onclick="score.yalalt = 0;
+         score.yalagdal = 0;
+         score.tentssen = 0;
+         localStorage.removeItem('score');
+         updateScoreElement();
+         "
+        class="reset-score-button">Сэргээх</button>
+        <button class="auto-play-button" onclick="autoPlay();">Автоматаар тоглуулах</button>
+    </div>
+    
      
     <script src="scripts/App.js"></script>
 </body>

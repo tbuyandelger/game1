@@ -3,10 +3,20 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+#container{
+  position: relative;
+  background: rgba(7, 7, 167, 0.74);
+  width: 430px;
+  height: 500px;
+  top: 50px;
+  left: 30px;
+  padding: 20px 30px;
+  border-radius: 50px;
+}
 .title{
     font-size: 30x;
     font-weight: bold;
+    text-align: center;
 }
 
 .move-icon{
