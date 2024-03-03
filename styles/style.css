@@ -4,14 +4,25 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 #container{
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* position: relative;
   background: rgba(7, 7, 167, 0.74);
   width: 430px;
   height: 500px;
   top: 50px;
   left: 30px;
   padding: 20px 30px;
-  border-radius: 50px;
+  border-radius: 50px; */
+}
+.item{
+  background: #333;
+  border: #fff;
+  margin: 0.8rem;
+  padding: 2rem;
+
+flex: 1;
 }
 .title{
     font-size: 30x;
